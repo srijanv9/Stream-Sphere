@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSearchParams } from "react-router-dom";
-import { VIDEO_STATS } from "../utils/constants";
+import { VIDEO_STATS } from "../../utils/constants";
 const VideoDetails = () => {
   const [searchParams] = useSearchParams();
   const url = searchParams.get("v");

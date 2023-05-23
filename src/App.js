@@ -1,12 +1,12 @@
 import "./App.css";
-import Header from "./components/Header";
-import Body from "./components/Body";
+import Header from "./components/LandingPage/Header";
+import Body from "./components/LandingPage/Body";
 import { Provider } from "react-redux";
 import store from "./utils/store";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import MainContainer from "./components/MainContainer";
-import WatchPage from "./components/WatchPage";
-import SearchPage from "./components/SearchPage";
+import MainContainer from "./components/LandingPage/MainContainer";
+import WatchPage from "./components/WatchPage/WatchPage";
+import SearchPage from "./components/SearchedPage/SearchPage";
 function App() {
   // const cors = require("cors");
   // App.use(cors());

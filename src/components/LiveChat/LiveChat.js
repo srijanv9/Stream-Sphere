@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { LiveChatMessages } from "./LiveChatMessages";
 import { useDispatch, useSelector } from "react-redux";
-import { addMessage } from "../utils/chatSlice";
-import { generateRandomChat, generateRandomName } from "../utils/helper";
+import { addMessage } from "../../utils/chatSlice";
+import { generateRandomChat, generateRandomName } from "../../utils/helper";
 
 const LiveChat = () => {
   const dispatch = useDispatch();

@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import { closeMenu } from "../utils/appSlice";
+import { closeMenu } from "../../utils/appSlice";
 import { useSearchParams } from "react-router-dom";
 import CommentsContainer from "./CommentsContainer";
-import LiveChat from "./LiveChat";
+import LiveChat from "../LiveChat/LiveChat";
 import VideoDetails from "./VideoDetails";
 // import { useLocation } from "react-router-dom";
 // import { YOUTUBE_VIDEOS_API } from "../utils/constants";
