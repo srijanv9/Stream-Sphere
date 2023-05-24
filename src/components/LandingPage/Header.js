@@ -57,7 +57,7 @@ const Header = () => {
             <img
               className="h-8 pl-2"
               alt="ham"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/2560px-YouTube_Logo_2017.svg.png"
+              src="https://i.ibb.co/s9Qys2j/logo.png"
             />
           </a>
         </div>
